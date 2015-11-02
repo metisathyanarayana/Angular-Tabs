@@ -1,0 +1,43 @@
+[ng\:cloak],
+[ng-cloak],
+.ng-cloak {
+    display: none !important;
+}
+
+.nav-tabs {
+    border: none;
+}
+
+.nav > li > a {
+    font-family: SapientSansRegular;
+    color: #888888;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    border: none;
+}
+.nav-tabs > li{
+        margin-right: 20px;
+}
+
+.nav-tabs > li.active{
+   
+   background-repeat: no-repeat;
+    background-size: 75% 4%;
+    background-position: 75% 100%;
+    background-image: linear-gradient( to right, transparent, transparent 20%, rgb(220, 41, 47) 20%, rgb(220, 41, 47) 80%, transparent 80%);
+    padding-bottom: 19px;
+
+}
+.nav-tabs > li.active > a{
+     color: #1c1c1c;
+    font-weight: bold;
+}
+.fa-icon {
+    margin-right: 5px;
+}
